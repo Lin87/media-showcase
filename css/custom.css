@@ -29,7 +29,7 @@
 .showcase-term a,
 .single-showcase a {
     
-    color: #2f7dbd;
+    color: #46a5f3;
     text-decoration: underline;
     
 }
@@ -127,6 +127,12 @@
 .single-showcase #primary #main .type-showcase .entry-content * {
     
     color: #fff;
+    
+}
+
+.single-showcase #primary #main .type-showcase .entry-content a {
+    
+    color: #46a5f3;
     
 }
 
@@ -356,5 +362,13 @@
 .single-showcase #colophon a {
     
     color: #337ab7;
+    
+}
+
+.pagination .page-numbers {
+    
+    padding: 0 5px 0 6px;
+    text-align: center;
+    background-color: transparent;
     
 }

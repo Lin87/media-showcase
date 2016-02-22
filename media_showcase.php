@@ -318,7 +318,7 @@ class CPT {
     
     public function add_term_class( $classes ) {
         
-        if( is_tax() ) {
+        if( is_tax( 'media_types' ) ) {
             global $taxonomy;
             if( !in_array( $taxonomy, $classes ) )
                 $classes[] = 'showcase-term';
